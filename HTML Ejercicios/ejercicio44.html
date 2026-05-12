@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 44</title>
+</head>
+<body style="background-color: skyblue;" >
+    <center><img src="Logo_Tuenti_nuevo.png" height="100"></center>
+    <table border="0" style="border-radius:4px; background-color: white; margin: auto;" cellspacing="0px">
+        <tr>
+            <td style="white-space: nowrap;" ><h3>Únete a Tuenti</h3><b></b></td>
+            <td colspan="2" style="color: grey;" > Todos los campos son obligatorios</td>
+            <td>
+                <select>
+                    <option>Español</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><br>Nombre</td>
+            <td>
+                <form method="post" action="/send/"><br>
+                    <input type="text" placeholder="Nombre" name="nombre" value=""/>
+                    <input type="text" placeholder="Apellidos" name="nombre" value=""/>
+                    <tr>
+                        <td></td>
+                        <td><br>Email:</td>
+                        <td>
+                            <br>
+                            <input type="text" name="email" value="" size="43"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><br>Sexo</td>
+                        <td>
+                            <br>
+                            <input type="radio" name="sexo">Hombre
+                            <input type="radio" name="sexo">Mujer
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><br>Fecha de nacimiento</td>
+                        <td>
+                            <br>
+                            <select name="dia">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                            <select name="mes">
+                                <option>Enero</option>
+                                <option>Febrero</option>
+                                <option>Marzo</option>
+                                <option>Abril</option>
+                                <option>Mayo</option>
+                                <option>Junio</option>
+                                <option>Julio</option>
+                                <option>Agosto</option>
+                                <option>Septiembre</option>
+                                <option>Octubre</option>
+                                <option>Noviembre</option>
+                                <option>Diciembre</option>
+                            </select>
+                            <select name="año">
+                                <option>2025</option>
+                                <option>2024</option>
+                                <option>2023</option>
+                                <option>2022</option>
+                                <option>2021</option>
+                                <option>2020</option>
+                                <option>2019</option>
+                                <option>2018</option>
+                                <option>2017</option>
+                                <option>2016</option>
+                                <option>2015</option>
+                                <option>2014</option>
+                            </select>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><br>Contraseña</td>
+                        <td>
+                            <br>
+                            <input type="password" name="contrasena" value=""/>
+                        </td>
+                        <tr>
+                            <td></td>
+                            <td><br>Número de móvil</td>
+                            <td>
+                                <br>
+                                <select name="movil">
+                                    <option>+34</option>
+                                </select>
+                                <input type="text" name="movil" value=""/>
+                            </td>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <br>
+                            <input type="checkbox" name="condiciones" value=""/> Aceptas las condiciones de uso y la Política de privacidad de Tuenti y que Tuenti te envíe comunicaciones. Incluso por vía electrónica. Lee un resumen en el Decálogo de las condiciones de uso.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align: right;"><br>
+                            <input type="submit" name="enviar" value="¡Disfruta de Tuenti!">
+                        </td>
+                    </tr>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
