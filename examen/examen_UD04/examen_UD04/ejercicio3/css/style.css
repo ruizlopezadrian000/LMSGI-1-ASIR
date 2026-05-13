@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.escena {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.caja {
+  position: absolute;
+}
+
+
+.morado {
+  background-color: #9b3ca5;
+  width: 300px;
+  height: 350px;
+  top: 60px;
+  left: 220px;
+  z-index: 1;
+}
+
+.gris {
+  background-color: #9b9aaa;
+  width: 290px;
+  height: 360px;
+  top: 200px;
+  left: 300px;
+  z-index: 2;
+}
+
+.verde {
+  background-color: #a8bf8c;
+  width: 120px;
+  height: 100px;
+  top: 360px;
+  left: 560px;
+  z-index: 3;
+}
+
+
+.menu {
+  background-color: #eeeeee;
+  padding: 12px 16px 16px 16px;
+  border: none;
+}
+
+.menu-titulo {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border: 2px dashed #ffffff;
+  outline: 2px dashed #000000;
+  margin-bottom: 10px;
+}
+
+.menu ul {
+  list-style-type: disc;
+  padding-left: 18px;
+  color: #111;
+  line-height: 1.7;
+}
+
+.menu ul ul {
+  list-style-type: circle;
+  padding-left: 16px;
+}
+
+.papas {
+  width: 240px;
+  top: 145px;
+  left: 200px;
+  z-index: 4;
+}
+
+.bocadillos {
+  width: 220px;
+  top: 85px;
+  left: 390px;
+  z-index: 5;
+}
+
+.bebidas {
+  width: 240px;
+  top: 260px;
+  left: 310px;
+  z-index: 6;
+}
