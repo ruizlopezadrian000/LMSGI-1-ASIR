@@ -171,4 +171,11 @@ body {
 .red .quote,
 .red .author {
   color: #f5f5f5;
+
+}
+
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
 }

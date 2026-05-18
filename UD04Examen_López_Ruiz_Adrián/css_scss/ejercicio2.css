@@ -4,12 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-color: #f0b429;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .page-wrapper {
